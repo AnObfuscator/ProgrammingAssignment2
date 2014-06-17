@@ -4,7 +4,15 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+  matrix <- NULL
+  
+  ## caches matrix y into x
+  set <- function(y) {
+    x <<- y
+    matrix <<- NULL
+  }
+  
+  
 }
 
 
